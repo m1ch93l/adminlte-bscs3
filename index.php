@@ -241,10 +241,19 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container-fluid">
+                <div class="container-fluid bg-dark">
                     <!-- Your main content goes here -->
                     <h1>Welcome to the AdminLTE dashboard!</h1>
                     <!-- You can add more HTML elements, charts, tables, etc., for your main content -->
+                </div>
+            </section>
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 border">column 1</div>
+                        <div class="col-md-6 border">column 2</div>
+                        <div class="col-md-3 border">column 3</div>
+                    </div>
                 </div>
             </section>
             <!-- /.content -->
