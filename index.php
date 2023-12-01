@@ -12,7 +12,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+        </script>
     <!-- cdn of fontawesome -->
     <script type="text/javascript" src="https://kit.fontawesome.com/2ea4a01491.js" crossorigin="anonymous"></script>
     <!-- cdn of adminLTE -->
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
 </head>
 
-<body>
+<body class="layout-fixed layout-navbar-fixed layout-footer-fixed">
     <!-- The layout consists of four major parts:
 
     1. Wrapper .wrapper. A div that wraps the whole site.
@@ -260,6 +260,15 @@
             </section>
             <section class="content">
                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 border">column 1</div>
+                        <div class="col-md-6 border">column 2</div>
+                        <div class="col-md-3 border">column 3</div>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <div class="container-fluid vh-100">
                     <div class="row">
                         <div class="col-md-3 border">column 1</div>
                         <div class="col-md-6 border">column 2</div>
